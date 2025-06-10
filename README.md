@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Utility Tool Dashboard — Entry-Level</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans p-6">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <header class="mb-8">
+    <h1 class="text-3xl font-bold text-blue-600">Smart Utility Tool Dashboard — Entry-Level</h1>
+    <p class="mt-2 text-lg">A React-based smart utility dashboard offering a user-friendly interface for quick access to AI-powered tools and utilities such as summarization, image generation, code explanation, and more.</p>
+  </header>
 
-## Available Scripts
+  <section class="mb-8">
+    <h2 class="text-2xl font-semibold text-gray-700">🚀 Features</h2>
+- ✅ Paste and check English grammar using LanguageTool API.
+- 🔄 Real-time feedback with automatic correction replacement.
+- 🌗 Light/Dark mode support.
+- 💻 Clean and responsive UI using TailwindCSS.
+- ⚙️ API integration with graceful loading state and error handling.
+  </section>
 
-In the project directory, you can run:
+  <section class="mb-8">
+    <h2 class="text-2xl font-semibold text-gray-700">🛠️ Tech Stack</h2>
+    <ul class="list-disc ml-6 mt-2 space-y-1">
+      <li><strong>React</strong> — Front-end framework</li>
+      <li><strong>Tailwind CSS</strong> — Styling</li>
+      <li><strong>JavaScript (ES6+)</strong></li>
+      <li><strong>HuggingFace APIs</strong> — For text and image utilities</li>
+    </ul>
+  </section>
 
-### `npm start`
+  <section class="mb-8">
+    <h2 class="text-2xl font-semibold text-gray-700">📦 Installation</h2>
+    <p class="mt-2">Clone the repository and install dependencies:</p>
+    <pre class="bg-gray-200 p-4 rounded mt-2 overflow-auto"><code>git clone https://github.com/Benish-16/Benish-16-Smart-Utility-Tool-Dashboard---Entry-Level.git
+cd Benish-16-Smart-Utility-Tool-Dashboard---Entry-Level
+npm install</code></pre>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    <h3 class="text-xl font-semibold text-gray-600 mt-4">📋 Set up Environment Variables</h3>
+    <p class="mt-1">Create a <code>.env</code> file in the root directory and add:</p>
+    <pre class="bg-gray-200 p-4 rounded mt-2 overflow-auto"><code>REACT_APP_HUGGINGFACE_TOKEN=your_huggingface_api_key</code></pre>
+    <p class="mt-1 text-sm text-red-600">Make sure you do NOT commit your actual token to GitHub. Use <code>.gitignore</code> to prevent secrets from being pushed.</p>
+  </section>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <section class="mb-8">
+    <h2 class="text-2xl font-semibold text-gray-700">🧪 Running Locally</h2>
+    <pre class="bg-gray-200 p-4 rounded mt-2 overflow-auto"><code>npm start</code></pre>
+    <p class="mt-2">Visit: <a href="http://localhost:3000" class="text-blue-600 underline">http://localhost:3000</a> in your browser.</p>
+  </section>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</body>
+</html>
