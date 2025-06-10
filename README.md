@@ -15,8 +15,10 @@
 
   <section class="mb-8">
     <h2 class="text-2xl font-semibold text-gray-700">🚀 Features</h2>
-- ✅ Paste and check English grammar using LanguageTool API.
-- 🔄 Real-time feedback with automatic correction replacement.
+-✅ Summarizer 
+-🤖 AppBot 
+ -🌐 Translator 
+- ✅ Grammar checker.
 - 🌗 Light/Dark mode support.
 - 💻 Clean and responsive UI using TailwindCSS.
 - ⚙️ API integration with graceful loading state and error handling.
